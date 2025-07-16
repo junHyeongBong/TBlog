@@ -10,10 +10,8 @@ feed = feedparser.parse(tistory_uri+"/rss")
 markdown_text = """
 ### Hi there 👋   
 
-### 📖   Interest   
-     - FrontEnd
-     - BackEnd
-     - ...  
+### 📖   Interest  
+     - BackEnd (Java)
 
 
 ### 📕 Latest Blog Posts   
