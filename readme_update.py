@@ -21,7 +21,7 @@ markdown_text = """
 lst = []
 
 
-for i in feed['entries'][:3]:
+for i in feed['entries'][:5]:
 #     dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
 #     markdown_text += f"[{i['title']}]({i['link']}) - {dt}<br>\n"
 #     markdown_text += f"{i['title']} {i['link']} <br>\n"
